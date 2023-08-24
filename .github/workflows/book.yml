@@ -1,7 +1,8 @@
 name: Deploy Book
 
 on:
-  push:
+  # push:
+  workflow_dispatch:
 
 permissions:
   contents: read
